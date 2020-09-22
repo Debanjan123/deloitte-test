@@ -4,9 +4,11 @@ const app = express();
 const compileSass = require('./config/compileSass');
 app.use("/static",
 express.static(path.resolve(__dirname, "frontend", "static")));
+app.use("/layout",
+express.static(path.resolve(__dirname, "frontend", "layout")));
 var path1 = path.resolve(__dirname,'assets')
 app.use("/assets",
-express.static(path1));
+express.static(path1)); 
 app.get("/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "frontend", "index.html"));
 });
@@ -18,5 +20,5 @@ require('./config/compileSass')
 .compileSassMain()
 .catch(console.error);
 
-app.listen(process.env.PORT || 5061, () => console.log('starting port 5060'));
+app.listen(process.env.PORT || 5062, () => console.log('starting port 5060'));
 
