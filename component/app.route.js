@@ -1,5 +1,5 @@
-import Dashboard from "./dashboard/dashboard.js";
-import productDetailsComponent from "./product-details/product-details.js";
+import DashboardComponent from "./dashboard/dashboard.js";
+import ProductDetailsComponent from "./product-details/product-details.js";
 
 const pathToRegex = (path) =>
   new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
@@ -18,8 +18,8 @@ const getParams = (match) => {
 
 const router = async () => {
   const routes = [
-    { path: "/", view: Dashboard },
-    { path: "/product-details/:id", view: productDetailsComponent },
+    { path: "/", view: DashboardComponent },
+    { path: "/product-details/:id", view: ProductDetailsComponent },
   ];
 
   // Test each route for potential match

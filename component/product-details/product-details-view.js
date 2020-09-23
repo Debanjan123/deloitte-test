@@ -45,7 +45,7 @@ const product_detailsHTML = (parent) => {
           "productPrice"
         )}</span>
         <button type="button" class="btn btn-dark custom-btn">BUY NOW</button>
-        < span class = "material-icons add-to-card-color" >
+        <span class = "material-icons add-to-card-color">
         add_shopping_cart </span>
      </div>
   </div>
