@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server",
-    "scss": "node-sass -w -r assets/styles/scss/ -o assets/styles/css"
+    "start": "node server"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +13,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-sass": "^4.14.1",
-    "bootstrap": "^4.0.0-beta.2",
-    "node-sass-middleware": "^0.11.0"
+    "bootstrap": "^4.0.0-beta.2"
   }
 }

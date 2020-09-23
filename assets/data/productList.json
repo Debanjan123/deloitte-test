@@ -1,0 +1,69 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "productId": "1",
+            "productName": "Tiger Nixon",
+            "productPrice": "$1200",
+            "rating": "5",
+            "isAddToCard": false,
+            "imageUrl": "arrival1.png"
+        },
+        {
+            "productId": "2",
+            "productName": "Garrett Winters",
+            "productPrice": "$2000",
+            "rating": "5",
+            "isAddToCard": "",
+            "imageUrl": "arrival2.png"
+        },
+        {
+            "productId": "3",
+            "productName": "Ashton Cox",
+            "productPrice": "$245",
+            "rating": "3",
+            "isAddToCard": "",
+            "imageUrl": "arrival3.png"
+        },
+        {
+            "productId": "4",
+            "productName": "Cedric Kelly",
+            "productPrice": "$345",
+            "rating": "5",
+            "isAddToCard": "",
+            "imageUrl": "arrival4.png"
+        },
+        {
+            "productId": "5",
+            "productName": "Airi Satou",
+            "productPrice": "$543",
+            "rating": "5",
+            "isAddToCard": "",
+            "imageUrl": "arrival5.png"
+        },
+        {
+            "productId": "6",
+            "productName": "Brielle Williamson",
+            "productPrice": "$657",
+            "rating": "3",
+            "isAddToCard": "",
+            "imageUrl": "arrival6.png"
+        },
+        {
+            "productId": "7",
+            "productName": "Herrod Chandler",
+            "productPrice": "$234",
+            "rating": "4",
+            "isAddToCard": "",
+            "imageUrl": "arrival7.png"
+        },
+        {
+            "productId": "8",
+            "productName": "Rhona DavproductIdson",
+            "productPrice": "$232",
+            "rating": "2",
+            "isAddToCard": "",
+            "imageUrl": "arrival8.png"
+        }
+    ]
+}

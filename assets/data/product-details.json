@@ -1,0 +1,149 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "productId": "1",
+            "productType": "Electrincs",
+            "productName": "Tiger Nixon",
+            "color": "black",
+            "productPrice": "$1200",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival1.png",
+                    "isPrimary": true
+                },
+                {
+                    "imageUrl": "arrival1.png",
+                    "isPrimary": false
+                }
+            ]
+        },
+        {
+            "productId": "2",
+            "productType": "Electrincs",
+            "productName": "Garrett Winters",
+            "color": "black",
+            "productPrice": "$2000",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival2.png",
+                    "isPrimary": true
+                },
+                {
+                    "imageUrl": "arrival2.png",
+                    "isPrimary": false
+                }
+            ]
+        },
+        {
+            "productId": "3",
+            "productType": "Electrincs",
+            "productName": "Ashton Cox",
+            "color": "black",
+            "productPrice": "$245",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival3.png",
+                    "isPrimary": true
+                },
+                {
+                    "imageUrl": "arrival3.png",
+                    "isPrimary": false
+                }
+            ]
+        },
+        {
+            "productId": "4",
+            "productType": "Electrincs",
+            "productName": "Cedric Kelly",
+            "color": "black",
+            "productPrice": "$345",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival4.png",
+                    "isPrimary": true
+                }
+            ]
+        },
+        {
+            "productId": "5",
+            "productType": "Electrincs",
+            "productName": "Airi Satou",
+            "color": "black",
+            "productPrice": "$543",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival5.png",
+                    "isPrimary": true
+                },
+                {
+                    "imageUrl": "arrival5.png",
+                    "isPrimary": false
+                }
+            ]
+        },
+        {
+            "productId": "6",
+            "productType": "Electrincs",
+            "productName": "Brielle Williamson",
+            "color": "black",
+            "productPrice": "$657",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival6.png",
+                    "isPrimary": true
+                },
+                {
+                    "imageUrl": "arrival6.png",
+                    "isPrimary": false
+                }
+            ]
+        },
+        {
+            "productId": "7",
+            "productType": "Electrincs",
+            "productName": "Herrod Chandler",
+            "color": "black",
+            "productPrice": "$234",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival7.png",
+                    "isPrimary": true
+                }
+            ]
+        },
+        {
+            "productId": "8",
+            "productType": "Electrincs",
+            "productName": "Rhona DavproductIdson",
+            "color": "black",
+            "productPrice": "$232",
+            "isAddToCard": false,
+            "productDescription": "The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance",
+            "images": [
+                {
+                    "imageUrl": "arrival8.png",
+                    "isPrimary": true
+                },
+                {
+                    "imageUrl": "arrival8.png",
+                    "isPrimary": false
+                }
+            ]
+        }
+    ]
+}

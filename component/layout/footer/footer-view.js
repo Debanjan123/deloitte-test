@@ -1,9 +1,9 @@
 const top_bar_view = () =>{
    return `<header class="d-flex fixed-menu bg-white">
    <ul class="topnav" id="myTopnav">
-  <li class="img-container"> <img src="./assets/images/header.jpg" class="d-flex"></li>
-  <li><a href="#news">HOME</a></li>
-  <li><a href="#contact">SHOP</a></li>
+  <li class="img-container"> <img src="/assets/images/header.jpg" class="d-flex"></li>
+  <li><a href="/" data-link>HOME</a></li>
+  <li><a href="/posts" data-link>SHOP</a></li>
   <li><a href="#about">MAGAZINE</a></li>
   <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
@@ -27,10 +27,10 @@ const top_bar_view = () =>{
                                     <li class="mr-15">
  
                                         <div class="nav-search search-switch d-flex icon-color">
-                                        <span class="material-icons">
-                                        add_shopping_cart
-                                        </span>
+                                       
+                                        <img src="/assets/images/add-to-cart.png" class="d-flex add-to-cart">
                                         </div>
+                                        
                                     </li>
                                     <li>
                                         <div class="card-stor">

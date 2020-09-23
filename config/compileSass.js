@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-const path  = require('path');
-const fs = require('fs');
-const mkdirp = require('mkdirp');
-const sass = require('node-sass');
+const path = require("path");
+const fs = require("fs");
+const mkdirp = require("mkdirp");
+const sass = require("node-sass");
 
 const nodeEnv = process.env.NODE_ENV;
 
@@ -11,19 +11,18 @@ module.exports = {
   compileSass,
   compileSassProduction,
   compileSassLibs,
-  compileSassMain
+  compileSassMain,
 };
 
 function compileSass(sassFile) {
   const sassOptions = {
-    file: sassFile
+    file: sassFile,
   };
 
-  if (nodeEnv !== 'production') {
+  if (nodeEnv !== "production") {
     sassOptions.sourceMapEmbed = true;
-  }
-  else {
-    sassOptions.outputStyle = 'compressed';
+  } else {
+    sassOptions.outputStyle = "compressed";
   }
 
   return new Promise((resolve, reject) => {
@@ -38,42 +37,48 @@ function compileSass(sassFile) {
 }
 
 function compileSassProduction(sassFile) {
-  const fullSassPath = path.join(__dirname, '../assets/scss/', sassFile);
-  const cssFile = sassFile.replace('.scss', '.css');
-  const cssPath = path.join(__dirname, '../assets/css/');
+  const fullSassPath = path.join(__dirname, "../assets/scss/", sassFile);
+  const cssFile = sassFile.replace(".scss", ".css");
+  const cssPath = path.join(__dirname, "../assets/css/");
   const fullCssPath = path.join(cssPath, cssFile);
 
-  return compileSass(fullSassPath).then(css => {
+  return compileSass(fullSassPath).then((css) => {
     return new Promise((resolve, reject) => {
-      mkdirp(cssPath, error => {
+      mkdirp(cssPath, (error) => {
         if (error) {
           return reject(error);
         }
 
         resolve();
       });
-    }).then(() => {
-      return new Promise((resolve, reject) => {
-        fs.writeFile(fullCssPath, css, error => {
-          if (error) {
-            return reject(error);
-          }
+    })
+      .then(() => {
+        return new Promise((resolve, reject) => {
+          fs.writeFile(fullCssPath, css, (error) => {
+            if (error) {
+              return reject(error);
+            }
 
-          resolve(cssFile);
+            resolve(cssFile);
+          });
         });
-      });
-    }).catch(console.error);
+      })
+      .catch(console.error);
   });
 }
 
 function compileSassLibs() {
-  return compileSassProduction('libs.scss').then(() => {
-    console.log('Created libs.css');
-  }).catch(console.error);
+  return compileSassProduction("libs.scss")
+    .then(() => {
+      console.log("Created libs.css");
+    })
+    .catch(console.error);
 }
 
 function compileSassMain() {
-  return compileSassProduction('main.scss').then(() => {
-    console.log('Created main.css');
-  }).catch(console.error);
+  return compileSassProduction("main.scss")
+    .then(() => {
+      console.log("Created main.css");
+    })
+    .catch(console.error);
 }

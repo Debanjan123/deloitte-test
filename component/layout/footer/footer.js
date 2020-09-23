@@ -115,6 +115,10 @@ textarea.input100 {
 .has-val.input100 + .focus-input100::before {
   width: 100%;
 }
+:host .add-to-cart{
+height:24px;
+width:24px;
+}
 
   :host .material-icons{
     font-family: 'Material Icons';

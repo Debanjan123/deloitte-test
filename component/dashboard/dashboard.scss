@@ -1,0 +1,85 @@
+
+.new-arrival .single-new-arrival .popular-caption h3 a {
+	font-weight: 500;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	text-decoration: underline transparent;
+	font-family: "Poppins", sans-serif
+}
+.new-arrival .single-new-arrival .popular-img img {
+	width: 100%
+}
+
+.new-arrival .single-new-arrival .popular-img {
+	overflow: hidden;
+	position: relative
+}
+ a:hover {
+    background-color: #ddd !important; 
+    color: black !important;
+  }
+  
+.new-arrival .single-new-arrival .popular-img .favorit-items {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+	transform: scale(1);
+	cursor: pointer
+}
+
+
+ .popular-caption {
+	padding: 10px ;
+	
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.new-arrival .single-new-arrival .popular-caption h3 a {
+		font-size: 17px
+	}
+}
+
+
+.single-new-arrival:hover .popular-img .favorit-items {
+	opacity: 1;
+	visibility: visible;
+	right: 20px;
+	transform: scale(1.08)
+}
+
+.single-new-arrival:hover .popular-caption {
+	-webkit-box-shadow: 0 13px 36px rgba(29, 37, 71, 0.05)
+}
+
+.launge{
+  font-size: 10px !important;
+  color: #bfbfbf !important;
+}
+.label-text{
+  color: #1D2547;
+    
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    font-family: "Poppins",sans-serif;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+
+
+  
