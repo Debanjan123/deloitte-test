@@ -18,6 +18,7 @@ const paginator = () => {
    
       .pagination {
         display: inline-block;
+        margin-top:5px;
       }
       
       .pagination a {

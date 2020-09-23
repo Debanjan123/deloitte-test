@@ -150,9 +150,7 @@ width:24px;
   .d-flex{
     display:flex;
   }
-  .img-container{
-    padding-left:4px;
-  }
+  
   img{
     height: 60px;
     width: 60px;

@@ -6,11 +6,12 @@ const dashboardHTML = (product) => {
       <div class="row">
           ${generate(product)}
          
-         <paginator-view></paginator-view> 
+        
       </div>
      
 
   </div>
+  <paginator-view></paginator-view> 
 </div>`;
 };
 
@@ -19,7 +20,7 @@ const generate = (product) => {
   product.productList.data.forEach((element) => {
     dyncamicHtml =
       dyncamicHtml +
-      `<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+      `<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mr-b-10">
             <div class="single-new-arrival mb-50 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
                <div class="popular-img">
                   <img src="assets/images/${product.getCellValue(

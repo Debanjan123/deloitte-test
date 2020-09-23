@@ -6,7 +6,7 @@
 @import "../../component/product-details/product-details.scss";
 
 body {
-  margin: 0;
+  margin: 6px !important;  
   font-family: "Poppins", sans-serif;
 }
 .cursor-pointer,
@@ -14,11 +14,13 @@ a {
   cursor: pointer;
 }
 #app {
-  margin: 5em;
+  margin-top: 100px;
   line-height: 1.5;
   font-weight: 500;
 }
-
+.mr-b-10{
+  margin-bottom: 10px;
+}
 label,
 b,
 h1 {
